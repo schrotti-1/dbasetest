@@ -1,0 +1,35 @@
+** END HEADER -- Diese Zeile nicht entfernen
+//
+// Erstellt am 09.11.2022
+//
+parameter bModal
+local f
+f = new HalloWeltForm()
+if (bModal)
+   f.mdi = false // Nicht-MDI festlegen
+   f.ReadModal()
+else
+   f.Open()
+endif
+
+class HalloWeltForm of FORM
+   with (this)
+      height = 16.0
+      left = 47.0
+      top = 4.3636
+      width = 94.4286
+      text = ""
+   endwith
+
+   this.TEXT1 = new TEXT(this)
+   with (this.TEXT1)
+      height = 6.5
+      left = 10.0
+      top = 4.5
+      width = 61.0
+      text = "Hallo Welt"
+   endwith
+
+
+endclass
+
