@@ -1,4 +1,4 @@
-** Parameter
+** Parameter für die ausgabe von Reports über cr4dotnet mit Crystal Reports
    PRIVATE cReport,aparameter, cRDatei, cRLAusgabe, cRTitel, nRKopien, bDruckerwahl, bPDFAnzeige, cDrucker, bPDFRepTmp, nRKopienAbSeite, nRAbSeite
    PARAMETERS cReport, aparameter, cRDatei, cRLAusgabe, cRTitel, nRKopien, bDruckerwahl, bPDFAnzeige, cDrucker, bPDFRepTmp, nRKopienAbSeite, nRAbSeite
 
