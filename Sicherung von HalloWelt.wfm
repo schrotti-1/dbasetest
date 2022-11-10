@@ -1,6 +1,6 @@
 ** END HEADER -- Diese Zeile nicht entfernen
 //
-// Erstellt am 10.11.2022
+// Erstellt am 09.11.2022
 //
 parameter bModal
 local f
@@ -27,7 +27,7 @@ class HalloWeltForm of FORM
       left = 10.0
       top = 4.5
       width = 61.0
-      text = "Hallo Welt, ich bin da!"
+      text = "Hallo Welt"
    endwith
 
 
