@@ -1,0 +1,35 @@
+** END HEADER -- Diese Zeile nicht entfernen
+//
+// Erstellt am 11.11.2022
+//
+parameter bModal
+local f
+f = new Test1Form()
+if (bModal)
+   f.mdi = false // Nicht-MDI festlegen
+   f.ReadModal()
+else
+   f.Open()
+endif
+
+class Test1Form of FORM
+   with (this)
+      height = 16.0
+      left = 81.4286
+      top = 8.5
+      width = 40.0
+      text = ""
+   endwith
+
+   this.RECTANGLE1 = new RECTANGLE(this)
+   with (this.RECTANGLE1)
+      left = 13.7143
+      top = 8.0455
+      width = 12.0
+      height = 4.0
+      text = "Rectangle1"
+   endwith
+
+
+endclass
+
